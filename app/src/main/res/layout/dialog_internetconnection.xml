@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_15sdp"
+    android:background="@drawable/btn_done"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingTop="@dimen/_15sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_15sdp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_no_internet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:fontFamily="@font/font_regular"
+        android:gravity="center"
+        android:text="@string/no_internet_connection"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/font_regular"
+        android:gravity="center"
+        android:text="@string/error_internet_2"
+        android:textColor="#737373"
+        android:textSize="@dimen/_11sdp" />
+
+    <TextView
+        android:id="@+id/txtOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:background="@drawable/btn_done"
+        android:fontFamily="@font/font_regular"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingRight="@dimen/_30sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:text="@string/retry"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/relSelection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAE7E7">
+
+        <View
+            android:layout_width="@dimen/_4sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_selection_drawer" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgThumb"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:padding="@dimen/_1sdp"
+        android:src="@drawable/ic_gallery" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imgThumb"
+        android:fontFamily="@font/font_regular"
+        android:text="Photos"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+</RelativeLayout>

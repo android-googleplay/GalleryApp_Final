@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/bg_dialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_regular"
+        android:text="@string/rate_for_us"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_regular"
+        android:text="@string/thank_msg"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:textSize="@dimen/_13sdp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:src="@drawable/ic_rate_stars"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/txtExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_regular"
+            android:text="@string/cancel"
+            android:padding="@dimen/_5sdp"
+
+            android:layout_gravity="right"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:id="@+id/txtRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_regular"
+            android:text="@string/rate_us"
+            android:background="?attr/selectableItemBackground"
+            android:layout_gravity="right"
+            android:padding="@dimen/_5sdp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorAdText">#000000</color>
+
+    <color name="colorBGNativeStart">#1a03a9f4</color>
+    <color name="colorBGNativeEnd">#2603a9f4</color>
+
+    <color name="colorMain">#03a9f4</color>
+    <color name="colorSub">#03a9f4</color>
+    <color name="colorBottom">#03a9f4</color>
+
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#03a9f4</color>
+    <color name="colorAccent">#03a9f4</color>
+    <color name="colorPrimaryLight">#CC03a9f4</color>
+
+
+
+
+
+
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="textDark">#494949</color>
+    <color name="textLight">#7A7A7A</color>
+
+    <color name="text_second">#999999</color>
+
+    <color name="colorBg">#F0F0F0</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="connect_vpn">#4BB710</color>
+    <color name="teal_200">#fe303a</color>
+    <color name="teal_700">#fe303a</color>
+    <color name="blue">#03A9F4</color>
+
+    <color name="color_text_defaily___">#80000000</color>
+    <color name="star_gray">#7C7C7C</color>
+</resources>

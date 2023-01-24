@@ -1,0 +1,7 @@
+[
+{
+  "directory": "G:/JT/HT/UpWorkApps/GalleryApp/GalleryApp/app/.cxx/cmake/release/x86_64",
+  "command": "E:\\AndroidSdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=E:/AndroidSdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\native-lib.dir\\src\\main\\cpp\\native-lib.cpp.o -c G:\\JT\\HT\\UpWorkApps\\GalleryApp\\GalleryApp\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "G:/JT/HT/UpWorkApps/GalleryApp/GalleryApp/app/src/main/cpp/native-lib.cpp"
+}
+]

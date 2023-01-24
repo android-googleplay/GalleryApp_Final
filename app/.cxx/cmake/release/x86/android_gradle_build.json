@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "G:/JT/HT/UpWorkApps/GalleryApp/GalleryApp/app/.cxx/cmake/release/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=E:/AndroidSdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "E:\\AndroidSdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
+    "E:\\AndroidSdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
+    "G:\\JT\\HT\\UpWorkApps\\GalleryApp\\GalleryApp\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\JT\\HT\\UpWorkApps\\GalleryApp\\GalleryApp\\app\\.cxx\\cmake\\release\\x86\" clean"
+  ],
+  "buildTargetsCommand": "E:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"G:\\JT\\HT\\UpWorkApps\\GalleryApp\\GalleryApp\\app\\.cxx\\cmake\\release\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-x86": {
+      "buildCommand": "E:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\JT\\HT\\UpWorkApps\\GalleryApp\\GalleryApp\\app\\.cxx\\cmake\\release\\x86\" native-lib",
+      "buildType": "release",
+      "toolchain": "3902849497",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "G:\\JT\\HT\\UpWorkApps\\GalleryApp\\GalleryApp\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "G:\\JT\\HT\\UpWorkApps\\GalleryApp\\GalleryApp\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3902849497": {
+      "cppCompilerExecutable": "E:\\AndroidSdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

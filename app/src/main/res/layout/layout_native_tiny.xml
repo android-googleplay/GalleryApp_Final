@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/colorBGNativeStart"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="0dp">
+
+        <com.google.android.gms.ads.nativead.NativeAdView
+            android:id="@+id/uadview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/qurekaAdLayout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="1dp"
+                android:paddingEnd="1dp">
+
+                <ImageView
+                    android:id="@+id/ad_app_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="4dp" />
+
+                <RelativeLayout
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/cv_ad_text"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_9sdp"
+                                android:background="@drawable/btn_install2"
+                                android:gravity="center"
+                                app:cardBackgroundColor="@color/colorMain"
+                                app:cardCornerRadius="@dimen/_2sdp">
+
+                                <TextView
+                                    android:id="@+id/tv_ad_text"
+                                    style="@style/textStyleNormal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingBottom="@dimen/_2sdp"
+                                    android:text="AD"
+                                    android:textColor="#ffffff"
+                                    android:textSize="@dimen/_6ssp" />
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+                                android:id="@+id/ad_headline"
+                                style="@style/textStyleNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Play &amp; Win Coins"
+                                android:textColor="@color/colorAdText"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RatingBar
+                                android:id="@+id/ad_stars"
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:isIndicator="true"
+                                android:max="5"
+                                android:progress="5"
+                                android:progressBackgroundTint="@color/colorMain"
+                                android:progressTint="@color/colorAdText"
+                                android:stepSize="0.5"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/ad_body"
+                            style="@style/textStyleNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:maxLines="1"
+                            android:text="Win 5,00,000 Coins &amp; More"
+                            android:textColor="@color/colorAdText"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/ad_call_to_action"
+                    style="@style/textStyleNormal"
+                    android:layout_width="125dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/btn_install2"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Play Now"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.gms.ads.nativead.NativeAdView>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

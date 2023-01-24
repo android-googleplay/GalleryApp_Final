@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "560089924443",
+    "firebase_url": "https://z119a-free-music-player.firebaseio.com",
+    "project_id": "z119a-free-music-player",
+    "storage_bucket": "z119a-free-music-player.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560089924443:android:3be2614570ac0346",
+        "android_client_info": {
+          "package_name": "image.gallery.organize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560089924443-kdb70t3jcikbhf0k0icqd5cs66gfjqmq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "image.gallery.organize",
+            "certificate_hash": "cc5bede2615c2cc3ea2e25bd5a09f97fbe993ce9"
+          }
+        },
+        {
+          "client_id": "560089924443-rjvhdlrqa5k9maoplghal8696ogsmeck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "image.gallery.organize",
+            "certificate_hash": "4ba5b12f89cf76325c0b788c2c94ddd00f53c76f"
+          }
+        },
+        {
+          "client_id": "560089924443-ed2re6gmhmjhlssg50eu152k39j25e52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr2DF7rl4Cm9s-EaEMFsvONKBphSd4oeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560089924443-ed2re6gmhmjhlssg50eu152k39j25e52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8140216007326867~4074995128"
+    }
+  ],
+  "configuration_version": "1"
+}

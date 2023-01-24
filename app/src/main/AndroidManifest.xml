@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="image.gallery.organize">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <application
+        android:name="image.gallery.organize.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androix"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="false"
+        android:roundIcon="@drawable/ic_round"
+        android:theme="@style/Apptheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:appComponentFactory,android:networkSecurityConfig">
+        <activity
+            android:name="image.gallery.organize.Activity.SlideShowActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="image.gallery.organize.Activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="image.gallery.organize.Activity.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.ImageShareActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.LeavingAppActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dialog" />
+        <activity
+            android:name="image.gallery.organize.Activity.EditImageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.SetpasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.ViewRecycledImageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.AddtoAlbumActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.ViewImageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.ShowDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.ViewFolderImagesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.EditTextActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="image.gallery.organize.Activity.RecyclebinActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name="image.gallery.organize.Helper.MyCheckService"
+            android:enabled="true"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

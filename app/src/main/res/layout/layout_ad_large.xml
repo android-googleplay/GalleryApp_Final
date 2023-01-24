@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_native"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/adSpaceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg_native"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        style="@style/textStyleNormal"
+        android:text="Space For Ads"
+        android:textColor="@color/colorBlack" />
+
+    <FrameLayout
+        android:id="@+id/adFrameLarge"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  />
+
+</RelativeLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/cardActionbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <RelativeLayout
+                android:id="@+id/relSelection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:id="@+id/txtSelectedTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/imgBack"
+                    android:fontFamily="@font/font_regular"
+                    android:text="@string/recycle_bin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <image.gallery.organize.Helper.GridRecyclerView
+            android:id="@+id/listBin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cardActionbar"
+            android:layoutAnimation="@anim/anim_fall_down"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/_75sdp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical" />
+
+        <LinearLayout
+            android:id="@+id/llNotrash"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/llSelectedOptions"
+            android:layout_below="@+id/cardActionbar"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="trash.json"
+                app:lottie_loop="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_minus10sdp"
+                android:fontFamily="@font/font_regular"
+                android:gravity="center_horizontal"
+                android:text="@string/no_trash_found"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSelectedOptions"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_view_menu"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/llDelete"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:src="@drawable/ic_recyclebin"
+                    android:tint="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/TabImage"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/delete"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llRestore"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:src="@drawable/ic_restore"
+                    android:tint="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/TabImage"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/restore"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <include layout="@layout/layout_ad_mini" />
+
+</LinearLayout>

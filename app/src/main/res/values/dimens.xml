@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="control_SpecingLarge">24dp</dimen>
+    <dimen name="control_SpecingMedium">16dp</dimen>
+    <dimen name="default_dimension">100dp</dimen>
+    <dimen name="item_offset">5dp</dimen>
+    <dimen name="item_off_ten">10dp</dimen>
+    <dimen name="item_off_twenty">20dp</dimen>
+
+
+    <dimen name="adbutton_margin">14dp</dimen>
+</resources>

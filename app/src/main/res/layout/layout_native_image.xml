@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.ads.nativead.NativeAdView
+        android:id="@+id/uadview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ad_app_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="18dp"
+                android:layout_height="13.5dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                app:cardBackgroundColor="@color/colorMain">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="AD"
+                    android:textColor="@android:color/white"
+                    android:textSize="9dp" />
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</RelativeLayout>

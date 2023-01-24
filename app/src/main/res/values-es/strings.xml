@@ -1,0 +1,999 @@
+<resources>
+    <string name="app_name">Galeria</string>
+
+    <string name="folder_output"></string>
+
+    <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+    <string name="privacytext">Defina o bloqueio de segurança se você quiser ocultar algumas fotos ou vídeos e impedir o acesso não autorizado de fotos pessoais.</string>
+
+    <string name="rate_msg">Por favor, reserve um momento para avaliar e compartilhar seu valioso feedback conosco.</string>
+    <string name="exit_msg">Tem certeza que quer sair ?</string>
+    <string name="error_internet">Por favor, verifique sua conexão Internet ...</string>
+    <string name="terms" translatable="false">Os nossos termos e condições e politica de privacidade foram recentemente atualizados. Para continuar usando nosso aplicativo, por favor, revise e concorde com nossos termos atualizados.</string>
+    <string name="vpn_process_name" translatable="false">:vpn</string>
+    <string name="menu_photo">Foto</string>
+    <string name="menu_albums">Álbum</string>
+    <string name="menu_hide">Esconder</string>
+    <string name="menu_favorite">Favorito</string>
+    <string name="menu_recycle">Lixeira de reciclagem</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_rate">Avalie-nos</string>
+    <string name="menu_policy">Politica de privacidade</string>
+    <string name="set_security">Definir a segurança</string>
+    <string name="security_question">Pergunta de Segurança</string>
+    <string name="incorrect_answer">*Resposta incorreta!</string>
+    <string name="select_security_question">Selecione uma resposta de segurança</string>
+    <string name="enter_security_answer">Escreva uma resposta de segurança</string>
+    <string name="submit">Enviar</string>
+    <string name="add_to_album">Adicionar ao álbum</string>
+    <string name="new_album">Novo álbum</string>
+    <string name="edit_image">Editar imagem</string>
+    <string name="crop">Cortar</string>
+    <string name="adjust">Ajustar</string>
+    <string name="filter">Filtro</string>
+    <string name="text">Texto</string>
+    <string name="brightness">Claridade</string>
+    <string name="contrast">Contraste</string>
+    <string name="saturation">Saturação</string>
+    <string name="sharpen">Aperfeiçoar</string>
+    <string name="add_text">Adicionar texto</string>
+    <string name="font">Fonte</string>
+    <string name="color">Cor</string>
+    <string name="background">Plano de fundo</string>
+    <string name="shadow">Sombra</string>
+    <string name="set_password">Inserir senha</string>
+    <string name="no_images_found">Nenhuma imagem foi encontrada</string>
+    <string name="please_enter_password">Por favor coloque a senha</string>
+    <string name="confirm_password_does_not_match">*Não corresponde sua senha de confirmação</string>
+    <string name="forgot_password">Esqueci a senha</string>
+    <string name="save_amp_share">Salvar e compartilhar</string>
+    <string name="share_to">Compartilhar para</string>
+    <string name="photos_main">FOTOS</string>
+    <string name="photos">Fotos</string>
+    <string name="albums">Álbuns</string>
+    <string name="hide">Esconder</string>
+    <string name="delete">Apagar</string>
+    <string name="share">Compartilhar</string>
+    <string name="more">Mais</string>
+    <string name="videos">Vídeos</string>
+    <string name="recycle_bin">Lixeira de reciclagem</string>
+    <string name="no_trash_found">Nenhum lixo foi encontrado!</string>
+    <string name="restore">Restaurar</string>
+    <string name="details">Detalhes</string>
+    <string name="name">Nome :</string>
+    <string name="time">Hora :</string>
+    <string name="size">Tamanho :</string>
+    <string name="height">Altura :</string>
+    <string name="width">Comprimento :</string>
+    <string name="path">Caminho :</string>
+    <string name="slideshow">SlideShow</string>
+    <string name="hidden_images">Imagens ocultas</string>
+    <string name="images">Imagens</string>
+    <string name="edit">Editar</string>
+    <string name="_3_files_copy_to_new_album">Arquivos para copiar ao álbum novo</string>
+    <string name="delete_items_from_original_album">Apagar itens do álbum original</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="cancel_sheet">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="delete_sheet">Apagar ?</string>
+    <string name="are_you_sure_you_want_to_delete">Tem certeza de que quer apagar ?</string>
+    <string name="exit_app">Sair do app ?</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="gallery_images_are_loading_so_nplease_wait">As imagens da galeria estão a carregar, espere por favor...</string>
+    <string name="loading">Carregando...</string>
+    <string name="ad_loading">Carregando anúncio</string>
+    <string name="retry">TENTAR NOVAMENTE</string>
+    <string name="no_internet_connection">Sem conexão Internet !</string>
+    <string name="error_internet_2">Não parece estar ligado à Internet. Verifique a sua ligação à Internet e tente novamente!</string>
+    <string name="loading_please_wait">Carregando, espere por favor</string>
+    <string name="exit">SAIR</string>
+    <string name="rate_us">AVALIE-NOS</string>
+    <string name="rate_for_us">Avalie-nos</string>
+    <string name="thank_msg">Obrigado por deixar um bom comentário, isso nos ajuda muito</string>
+    <string name="new_file_name">Novo nome de arquivo</string>
+    <string name="file_name_here">Nome do arquivo aqui</string>
+    <string name="saving_please_wait">Salvando, por favor aguarde</string>
+    <string name="more_albums">Mais álbuns</string>
+    <string name="sort_by">Filtrar</string>
+    <string name="favourite">Favorito</string>
+    <string name="rotate">Girar</string>
+    <string name="rename">Renomear</string>
+    <string name="set_as">Definir</string>
+    <string name="rotate_left">Girar à esquerda</string>
+    <string name="rotate_right">Girar à direita</string>
+    <string name="rotate_180_xb0">Girar 180°</string>
+    <string name="select_your_question">Selecione sua pergunta</string>
+    <string name="what_s_your_father_s_name">Como se chama o teu pai?</string>
+    <string name="what_s_your_mother_s_name">Como se chama a tua mãe?</string>
+    <string name="what_s_your_favourite_movie">Como se chama o seu filme favorito?</string>
+    <string name="what_s_your_pets_name">Qual é o nome do seu mascote?</string>
+    <string name="what_s_your_dream_job">Qual é o nome do seu trabalho dos sonhos?</string>
+    <string name="in_which_city_did_your_parents_meet">Em que cidade seus pais se conheceram?</string>
+    <string name="count">Contagem</string>
+    <string name="date">Data</string>
+    <string name="reverse_all">Reverter</string>
+    <string name="reset">Formatar</string>
+    <string name="today">Hoy</string>
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

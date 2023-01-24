@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"
+    android:gravity="center"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/TabImage"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"/>
+
+    <TextView
+        android:id="@+id/TabText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="My Documents"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:maxLines="1"
+        android:fontFamily="@font/font_regular"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_9sdp"/>
+
+</LinearLayout>

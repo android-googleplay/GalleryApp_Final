@@ -1,0 +1,7 @@
+Executable : E:\AndroidSdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+G:\JT\HT\UpWorkApps\GalleryApp\GalleryApp\app\.cxx\cmake\release\x86
+native-lib
+jvmArgs : 
+

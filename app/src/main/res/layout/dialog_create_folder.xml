@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_regular"
+            android:text="@string/new_album"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp" />
+
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/font_regular"
+            android:maxLines="30"
+            android:hint="@string/album_name_here"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="#B1B0B0"
+            android:textSize="@dimen/_12sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/_15sdp">
+
+            <TextView
+                android:id="@+id/txtCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:fontFamily="@font/font_regular"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/cancel"
+                android:textColor="#0E6CB5"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/txtOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:fontFamily="@font/font_regular"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/ok"
+                android:textColor="#0E6CB5"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_3sdp"
+        app:cardElevation="@dimen/_3sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:paddingRight="@dimen/_20sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/font_regular"
+                android:text="@string/select_your_question"
+                android:textColor="#8A8989"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/txtQue1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/font_regular"
+                android:text="@string/what_s_your_father_s_name"
+                android:textColor="#636363"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/txtQue2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/font_regular"
+                android:text="@string/what_s_your_mother_s_name"
+                android:textColor="#636363"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/txtQue3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/font_regular"
+                android:text="@string/what_s_your_favourite_movie"
+                android:textColor="#636363"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/txtQue4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/font_regular"
+                android:text="@string/what_s_your_pets_name"
+                android:textColor="#636363"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/txtQue5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/font_regular"
+                android:text="@string/what_s_your_dream_job"
+                android:textColor="#636363"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/txtQue6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/font_regular"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:text="@string/in_which_city_did_your_parents_meet"
+                android:textColor="#636363"
+                android:textSize="@dimen/_11sdp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
