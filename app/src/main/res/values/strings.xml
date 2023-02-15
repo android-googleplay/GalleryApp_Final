@@ -49,7 +49,7 @@
     <string name="forgot_password">Forgot password</string>
     <string name="save_amp_share"><![CDATA[Save & Share]]></string>
     <string name="share_to">Share to</string>
-    <string name="photos_main">PHOTOS</string>
+    <string name="photos_main">Photos</string>
     <string name="photos">Photos</string>
     <string name="albums">Albums</string>
     <string name="hide">Hide</string>
@@ -158,9 +158,9 @@
     <string name="restore_progress">Restore in Progress</string>
     <string name="task_progress">Task in Progress</string>
     <string name="hide_progress">Hide in Progress</string>
-    <string name="title_photos">PHOTOS</string>
-    <string name="title_albums">ALBUMS</string>
-    <string name="title_hidden">HIDDEN</string>
+    <string name="title_photos">Photos</string>
+    <string name="title_albums">Albums</string>
+    <string name="title_hidden">Hidden</string>
 
 
 </resources>
