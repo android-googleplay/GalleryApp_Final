@@ -535,7 +535,7 @@ public class SplashActivity extends AppCompatActivity {
 
 
     public void fetchData() {
-        reference = FirebaseDatabase.getInstance("https://z119a-free-music-player.firebaseio.com/").getReference("app");
+        reference = FirebaseDatabase.getInstance("https://galleryz120-9aa24-default-rtdb.firebaseio.com").getReference("app");
         reference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

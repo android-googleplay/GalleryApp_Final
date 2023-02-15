@@ -1,56 +1,39 @@
 {
   "project_info": {
-    "project_number": "560089924443",
-    "firebase_url": "https://z119a-free-music-player.firebaseio.com",
-    "project_id": "z119a-free-music-player",
-    "storage_bucket": "z119a-free-music-player.appspot.com"
+    "project_number": "981767919370",
+    "firebase_url": "https://galleryz120-9aa24-default-rtdb.firebaseio.com",
+    "project_id": "galleryz120-9aa24",
+    "storage_bucket": "galleryz120-9aa24.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:560089924443:android:3be2614570ac0346",
+        "mobilesdk_app_id": "1:981767919370:android:ff31eca190572ca051ccf3",
         "android_client_info": {
-          "package_name": "image.gallery.organize"
+          "package_name": "photomanager.image.gallery"
         }
       },
       "oauth_client": [
         {
-          "client_id": "560089924443-kdb70t3jcikbhf0k0icqd5cs66gfjqmq.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "image.gallery.organize",
-            "certificate_hash": "cc5bede2615c2cc3ea2e25bd5a09f97fbe993ce9"
-          }
-        },
-        {
-          "client_id": "560089924443-rjvhdlrqa5k9maoplghal8696ogsmeck.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "image.gallery.organize",
-            "certificate_hash": "4ba5b12f89cf76325c0b788c2c94ddd00f53c76f"
-          }
-        },
-        {
-          "client_id": "560089924443-ed2re6gmhmjhlssg50eu152k39j25e52.apps.googleusercontent.com",
+          "client_id": "981767919370-52g3br7q8q3u7n57076n6lpck1q1gofn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAr2DF7rl4Cm9s-EaEMFsvONKBphSd4oeI"
+          "current_key": "AIzaSyB4fLOD3ZAY-oXtCeXdyPmTo-9o6Mpf6qo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "560089924443-ed2re6gmhmjhlssg50eu152k39j25e52.apps.googleusercontent.com",
+              "client_id": "981767919370-52g3br7q8q3u7n57076n6lpck1q1gofn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
         }
-      },
-      "admob_app_id": "ca-app-pub-8140216007326867~4074995128"
+      }
     }
   ],
   "configuration_version": "1"

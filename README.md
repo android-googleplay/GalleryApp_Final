@@ -7,3 +7,11 @@ Current version number 54 (as of 25 Jan 2023)
 2. ad ids are in firebase
 3. splash screen icon in app\src\main\res\drawable\ic_icon.png
 4. AND ic_round.png
+
+
+When you change package name
+1. SplashActivity.java should point to new url (e.g https://z119a-free-music-player.firebaseio.com)
+
+
+
+THIS is Z120

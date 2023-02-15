@@ -6,7 +6,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "image.gallery.organize"
+        applicationId 'photomanager.image.gallery'
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 54
